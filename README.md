@@ -5,13 +5,13 @@ A web-based Hospital Management System built using the Laravel framework. It aim
 ## Features
 - 🏥 **Patient Management** – Registration and tracking of patient information.
 - 📅 **Appointment Scheduling** – Setting and managing appointments.
-- 👩‍⚕️ **Doctor & Staff Management** – Managing accounts for doctors and patients.
-- 📊 **Reports & Analytics** – Dashboard for monitoring hospital operations.
+- 👩‍⚕️ **Doctor & Staff Management** – Managing accounts for doctor and staff.
+- 📊 **Reports & Analytics** – Dashboard for monitoring patient operations.
 
 ## Requirements
 Make sure the following are installed before starting the project:
 
-- PHP >= 8.0
+- PHP 
 - Composer
 - Laravel >= 11
 - MySQL
