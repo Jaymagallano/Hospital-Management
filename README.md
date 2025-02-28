@@ -1,22 +1,21 @@
 # Hospital Management System
 
-Isang web-based na Hospital Management System gamit ang Laravel framework. Ito ay may layuning gawing mas madali ang pag-manage ng ospital, kabilang ang patient records, appointment scheduling, at billing system.
+A web-based Hospital Management System built using the Laravel framework. It aims to simplify hospital management, including patient records, appointment scheduling, and the billing system.
 
 ## Features
-- 🏥 **Patient Management** – Pagrehistro at pag-track ng impormasyon ng pasyente.
-- 📅 **Appointment Scheduling** – Pag-set at pag-manage ng appointments.
-- 💳 **Billing System** – Automated na pag-generate ng medical bills.
-- 👩‍⚕️ **Doctor & Staff Management** – Pag-manage ng accounts ng doctors at hospital staff.
-- 📊 **Reports & Analytics** – Dashboard para sa monitoring ng hospital operations.
+- 🏥 **Patient Management** – Registration and tracking of patient information.
+- 📅 **Appointment Scheduling** – Setting and managing appointments.
+- 👩‍⚕️ **Doctor & Staff Management** – Managing accounts for doctors and patients.
+- 📊 **Reports & Analytics** – Dashboard for monitoring hospital operations.
 
 ## Requirements
-Siguraduhin na naka-install ang mga sumusunod bago simulan ang project:
+Make sure the following are installed before starting the project:
 
 - PHP >= 8.0
 - Composer
 - Laravel >= 11
 - MySQL
-- Node.js & npm (para sa frontend dependencies)
+- Node.js & npm (for frontend dependencies)
 
 ## Installation
 
@@ -33,12 +32,12 @@ npm install && npm run dev
 ```
 
 ### 3. Setup Environment
-Gumawa ng `.env` file at i-configure ang database:
+Create a `.env` file and configure the database:
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
-I-update ang database configuration sa `.env` file:
+Update the database configuration in the `.env` file:
 ```env
 DB_DATABASE=hospital_db
 DB_USERNAME=root
@@ -54,14 +53,8 @@ php artisan migrate --seed
 ```bash
 php artisan serve
 ```
-Pagkatapos nito, buksan ang browser at pumunta sa `http://127.0.0.1:8000`
+After this, open your browser and go to `http://127.0.0.1:8000`
 
 ## Default Admin Account
 - **Email:** admin@hospital.com
 - **Password:** password
-
-## Contributing
-Kung gusto mong mag-contribute, mag-fork ng repository at gumawa ng pull request.
-
-## License
-[MIT License](LICENSE)
