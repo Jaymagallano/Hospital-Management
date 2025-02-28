@@ -39,9 +39,9 @@ php artisan key:generate
 ```
 Update the database configuration in the `.env` file:
 ```env
-DB_DATABASE=hospital_db
+DB_DATABASE=laravel
 DB_USERNAME=root
-DB_PASSWORD=yourpassword
+DB_PASSWORD=
 ```
 
 ### 4. Migrate Database
