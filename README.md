@@ -1,6 +1,6 @@
 # Hospital Management System
 
-A web-based Hospital Management System built using the Laravel framework. It aims to simplify hospital management, including patient records, appointment scheduling, and the billing system.
+A web-based Hospital Management System built using the Laravel framework. It aims to simplify hospital management, including patient records, and appointment scheduling.
 
 ## Features
 - 🏥 **Patient Management** – Registration and tracking of patient information.
