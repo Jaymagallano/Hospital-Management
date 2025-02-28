@@ -54,7 +54,3 @@ php artisan migrate --seed
 php artisan serve
 ```
 After this, open your browser and go to `http://127.0.0.1:8000`
-
-## Default Admin Account
-- **Email:** admin@hospital.com
-- **Password:** password
